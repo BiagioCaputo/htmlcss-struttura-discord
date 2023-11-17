@@ -54,3 +54,73 @@
     width: 70%;
     
 }
+
+/*main*/
+
+.container_bianco{
+    min-height: 380px;
+
+}
+
+.container_grigio{
+    background-color: lightgrey;
+    min-height: 380px;
+}
+
+
+.box_bianco{
+    margin:0 20%;
+    max-width: 80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+}
+    
+.pannello_arancione{
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 280px;
+    width: 60%;
+}
+
+.pannello_verde{
+    background-color: green;
+    border: 1px solid black;
+    min-height: 280px;
+    width: 40%;
+    
+}
+
+
+.box_grigio{
+    margin:0 20%;
+    max-width: 80%;
+    padding: 40px 0;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+    
+.container_grigio_grande{
+    background-color: lightgrey;
+    min-height: 800px;
+}
+
+.box_grigio_grande{
+    margin:0 20%;
+    max-width: 80%;
+    padding: 40px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pannello_viola{
+    background-color:violet;
+    border: 1px solid black;
+    min-height: 700px;
+    width: 100%;
+    
+}
