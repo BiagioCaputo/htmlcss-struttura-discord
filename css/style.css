@@ -1,0 +1,56 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Generali*/
+
+
+
+/*Header*/
+
+.container_nb{
+    background-color: lightblue;
+    min-height:60px;
+}
+
+.container_header_inf{
+    background-color: blue;
+    min-height:300px;
+}
+
+.navigation_bar{
+    display:flex;
+    flex-direction: row;
+    margin:0 20%;
+    max-width: 80%;
+    justify-content: center;
+    padding: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.nav_i{
+    background-color:yellow;
+    border: 1px solid black;
+    min-height: 33px;
+    width: 33%;
+}
+.immagine_header{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin:0 20%;
+    justify-content: center;
+    padding: 25px;
+}
+
+.imagine_header_element{
+    background-color: pink;
+    border: 1px solid black;
+    min-height: 250px;
+    width: 70%;
+    
+}
